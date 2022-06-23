@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Weather() {
     const [data, setData] = useState([{}])
     const [location, setLocation] = useState('')
-    const apikey = '1886066329b7da92a4ba5264981d1577'
+    const apikey = ???
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${apikey}`
     //change to not event enter but the location of the card
     const searchLocation = (event) => {
